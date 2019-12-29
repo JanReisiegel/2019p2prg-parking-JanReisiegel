@@ -12,7 +12,7 @@ namespace ParkingPlace.Models
             Seats = seats;
             Size = 1;
         }
-        public override double CalculatePrice(int HousrsSpent)
+        public override float CalculatePrice(int HousrsSpent)
         {
             return 15 * HousrsSpent;
         }
